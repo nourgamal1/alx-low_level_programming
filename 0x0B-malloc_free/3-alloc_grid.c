@@ -21,7 +21,7 @@ int **alloc_grid(int width, int height)
 	if (mee == NULL)
 		return (NULL);
 
-	for (x = 0; x < height; x++)	
+	for (x = 0; x < height; x++)
 	{
 		mee[x] = malloc(sizeof(int) * width);
 
@@ -41,5 +41,5 @@ int **alloc_grid(int width, int height)
 			mee[x][y] = 0;
 	}
 
-	return (mee);		
+	return (mee);
 }
